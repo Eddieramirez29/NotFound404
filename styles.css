@@ -28,7 +28,7 @@
     top: 200px;
 }
 
-.container-button
+#buttonBack
 {
     position: relative;
     top: 300px;
@@ -37,6 +37,13 @@
     height: 60px;
     background-color: black;
     color: white;
+    border-radius: 10px;
+}
+
+#buttonBack:hover
+{ 
+    background-color: aqua;
+    color: black;
 }
 
 @media screen and (max-width: 920px)
@@ -67,7 +74,7 @@
    
 }
 
-.container-button
+#buttonBack
 {
     position: relative;
     top: 600px;
